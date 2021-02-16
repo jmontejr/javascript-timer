@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="author" content="José Monte">
+    <meta name="description" content="Timer counter development using Vanilla JavaScript">
+    <meta name="keywords" content="jose, monte, desenvolvedor, web, javascript, html, css, js, timer, counter">
+    <meta name="referrer" content="origin">
+    <title>JavaScript Timer</title>
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" crossorigin></script>
+    <![endif]-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"  as="font" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" type="text/css" href="assets/css/style.css" as="style">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <main class="timer shadow">
+        <h1 class="timer__title">Timer</h1>
+        <p class="timer__clock">00:00:00</p>
+        
+        <div class="timer__buttons">
+            <button class="timer__buttons__button shadow">Start</button>
+            <button class="timer__buttons__button shadow">Pause</button>
+            <button class="timer__buttons__button shadow">Reset</button>
+        </div>
+    </main>
+
+    <script defer>
+        (function(document) {
+            'use strict';
+    
+            const time = new Date().getTime();
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.src = `assets/js/index.js?version=${time}`;
+            document.body.appendChild(script);
+            
+        })(document);
+    </script>
+</body>
+</html>
