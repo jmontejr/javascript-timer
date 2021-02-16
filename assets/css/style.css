@@ -15,8 +15,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .shadow {
     box-shadow: 0px 0.8rem 1rem 0px rgba(0, 0, 0, 0.2);
+}
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .timer {
@@ -36,12 +48,19 @@ body {
 .timer__title {
     margin: 0;
     font-size: 2rem;
+    color: #333;
     text-transform: uppercase;
 }
 
 .timer__clock {
     font-size: 3rem;
     margin: 1rem 0;
+    color: #333;
+}
+
+.timer__clock--active {
+    color: #ff416c;
+    animation: flash 1s infinite;
 }
 
 .timer .timer__buttons {
