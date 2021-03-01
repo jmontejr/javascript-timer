@@ -63,6 +63,11 @@ Ir para o [topo](#title).
 
 ### Melhorias e ideias Sugeridas
 
+#### Melhorias realizadas:
+- Refatoração do código para um código mais moderno e limpo;
+- Adição de animação quando o timer for pausado (trabalhar com animações no css e inserção de classes de forma dinâmica usando o JavaScript)
+
+#### Melhorias sugeridas:
 - Recriar o projeto em algum Framework JavaScript
 - Criar componentes de acordo com o que o projeto demanda
 
