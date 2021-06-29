@@ -2,6 +2,12 @@
 
 <p align="center">A simple timer counter development using js!</p>
 
+<p align="center">
+<a href="https://sonarcloud.io/dashboard?id=jmontejr_javascript-timer">
+<img alt="Quality Gate Status" src="https://sonarcloud.io/api/project_badges/measure?project=jmontejr_javascript-timer&metric=alert_status">
+</a>
+</p>
+
 <br>
 
 ## Tabela de conteúdos
@@ -11,12 +17,12 @@
    * [Obtendo o projeto](#obtendo-o-projeto)
    * [Visualizando o projeto](#visualizando-o-projeto)
    * [Melhorias e ideias Sugeridas](#melhorias-e-ideias-sugeridas)
-   * [Autor](#autor)   
+   * [Autor](#autor)
 <!--te-->
 
 ## Overview
 
-O Timer é um dos exercícios presentes na Seção 3 do [Curso de JavaScript e TypeScript do básico ao avançado 2021](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/).  
+O Timer é um dos exercícios presentes na Seção 3 do [Curso de JavaScript e TypeScript do básico ao avançado 2021](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/).
 
 O projeto foi desenvolvido utilizando o JavaScript, HTML5 e CSS3.
 
