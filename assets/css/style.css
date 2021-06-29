@@ -9,8 +9,8 @@ body {
     height: 100vh;
     max-width: 100%;
     background: #FF416C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(bottom, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(bottom, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ body {
     max-width: 250px;
     padding: 2rem 1rem;
     background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 1rem;
     display: flex;
     justify-content: center;
